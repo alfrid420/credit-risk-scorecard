@@ -1,0 +1,15 @@
+# secrets and local config
+.env
+*.env
+
+# trained model artefacts and data
+*.pkl
+*.csv
+*.parquet
+
+# Python / Jupyter noise
+__pycache__/
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store

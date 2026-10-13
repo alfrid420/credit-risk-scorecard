@@ -1,6 +1,8 @@
 # Credit Risk Scorecard (WOE / IV + Logistic Regression)
 
-Predicts which credit-card customers will become **30+ days past due** (`Bad_label`) using three joined MySQL tables, and compares the result with a bank's existing model (**Gini 37.9**). Built with Python, SQL, pandas and scikit-learn as part of a data science mentoring programme.
+Predicts which credit-card customers will become **30+ days past due** (`Bad_label`) using three joined MySQL tables, and compares the result with the bank's existing model (**benchmark Gini 37.9**). Built with Python, SQL, pandas and scikit-learn.
+
+Built as a **client project during my AI Engineer internship at Rubixe**. (I completed my AI Engineering course at DataMites.)
 
 ![Pipeline](images/01_pipeline.png)
 
@@ -50,7 +52,7 @@ requirements.txt
 
 ## Running it yourself
 
-The data lives in a private training database and is **not** included, and no credentials are stored in this repo. To re-run the notebook against your own copy of a database with the same three tables, set these environment variables first:
+The data comes from a client database and is **not** included, and no credentials are stored in this repo. To re-run the notebook against your own copy of a database with the same three tables, set these environment variables first:
 
 ```
 DB_HOST, DB_PORT, DB_USER, DB_PASSWORD, DB_NAME
@@ -66,3 +68,8 @@ All outputs are already saved in the notebook, so you can read the full analysis
 ## Tech stack
 
 Python, SQL (MySQL via SQLAlchemy and PyMySQL), pandas, NumPy, scikit-learn, matplotlib, seaborn.
+
+## Author
+
+**Monu Mishra**
+[GitHub](https://github.com/alfrid420) | [LinkedIn](https://www.linkedin.com/in/monu-mishra-b55998357/)
